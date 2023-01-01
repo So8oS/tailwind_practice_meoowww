@@ -4,7 +4,7 @@ import { Content } from "./componants/content";
 import { Navbar } from "./componants/navbar";
 const App = () => {
   return (
-    <div className="App">
+    <div className="flex flex-col">
       <Navbar />
       <Content />
     </div>
